@@ -1,0 +1,41 @@
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto en color blanco para contrastar */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo-github, .logo-linkedin {
+    width: 50px; /* Tamaño ajustado */
+    height: 50px;
+    margin: 10px;
+}
+
+h1, h2, h3 {
+    color: #ffcc00; /* Color amarillo para títulos */
+}
+
+.parrafos__lineas {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.logo-github, .logo-linkedin {
+    width: 50px; /* Ajusta el tamaño según lo necesites */
+    height: 50px; /* Asegúrate de que ancho y alto sean iguales */
+    margin: 10px;
+    border-radius: 50%; /* Hace que el elemento sea redondo */
+    object-fit: cover; /* Ajusta el contenido dentro del círculo */
+    border: 2px solid #ffffff; /* (Opcional) Añade un borde blanco para destacar */
+}
